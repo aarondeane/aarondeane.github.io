@@ -1,0 +1,74 @@
+html {
+  font-family: "Roboto",sans-serif;
+}
+nav {
+  display: block;
+  background: white;
+  box-shadow: none;
+  height: 0;
+}
+
+ul {
+  left: 0;
+  top:0;
+  width: 200px;
+  margin: 0;
+  list-style-type: none;
+  position: fixed;
+  z-index: 999;
+  padding-inline-start: 0px;
+}
+
+main {
+  padding-left: 200px;
+  display: block;
+}
+
+#intro-image {
+  background: url('./media/IMG_3860.png') no-repeat top center/cover;
+  position: relative;
+  height:100vh;
+}
+
+.logo {
+  background-color: #fafafa;
+  border-bottom: 1px solid #ddd;
+  box-sizing: content-box;
+  min-height: 90px;
+  padding: 30px 30px 40px;
+}
+.section {
+  position: relative;
+  padding-bottom: 30px;
+  padding-top: 0;
+}
+h1 {
+  display: block;
+  color: blue;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-weight: 200;
+  margin-bottom: 60px;
+  margin-top: 0;
+  padding: 30px 40px;
+  text-transform: uppercase;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.container {
+  width: 95%;
+}
+
+span {
+  display: block;
+  font-size: 14px;
+  font-weight: lighter;
+  color: gray;
+}
