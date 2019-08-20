@@ -4,96 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./css/main.css">
     <title>Aaron Deane | Full Stack Developer</title>
   </head>
   <body>
-    <!--Navigation Menu-->
-    <nav class="navbar">
-      <ul class="side-nav fixed table-of-contents">
-        <li class="logo">
-          <a>
-            <h1>
-              Aaron Deane
-              <span>Full Stack Developer</span>
-            </h1>  
-          </a>
-        </li>
-        <li class="bold">
-            <a aria-label="navigate to the About section" href="#about">
-              <i class="small"></i>
-              <span>About</span>
-            </a>
-        </li>
-        <li class="bold">
-            <a aria-label="navigate to the Experience section" href="#experience">
-              <i class="small"></i>
-              <span>Experience</span>
-            </a>
-        </li>
-        <li class="bold">
-            <a aria-label="navigate to the Skills section" href="#skills">
-              <i class="small"></i>
-              <span>Skills</span>
-            </a>
-        </li>
-        <li class="bold">
-            <a aria-label="navigate to the Projects section" href="#projects">
-              <i class="small"></i>
-              <span>Projects</span>
-            </a>
-        </li>
-        <li class="bold">
-            <a aria-label="navigate to the Education section" href="#education">
-              <i class="small"></i>
-              <span>Education</span>
-            </a>
-        </li>
-        <li class="bold">
-            <a aria-label="navigate to the Contact section" href="#contact">
-              <i class="small"></i>
-              <span>Contact</span>
-            </a>
-        </li>
-        <li class="bold">
-            <a aria-label="navigate to the Resume section" href="#resume">
-              <i class="small"></i>
-              <span>Resume</span>
-            </a>
-        </li>
-      </ul>
-    </nav>
+    <!--Sidenav Menu-->
+
+    <ul id="slide-out" class="sidenav sidenav-fixed grey lighten-5 z-depth-2">
+      <li class="logo z-depth-2"><a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro-image" class="brand-logo teal-text">
+          <h1>Aaron Deane<br>
+          <span class="brown-text text-lighten-2">Full Stack Developer</span></h1></a>
+      </li>
+      <li><a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i class="small material-icons teal-text left center">account_box</i><span>About</span></a></li>
+      <li><a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark cyan-text"><i class="small material-icons cyan-text left">trending_up</i><span>Experience</span></a></li>
+      <li><a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark indigo-text"><i class="small material-icons indigo-text left">assessment</i><span>Skills</span></a></li>
+      <li><a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark purple-text"><i class="small material-icons purple-text left">desktop_mac</i><span>Projects</span></a></li>
+      <li><a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark orange-text"><i class="small material-icons orange-text left">grade</i><span>Education</span></a></li>
+      <li><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="small material-icons brown-text left">mail_outline</i><span>Contact</span></a></li>
+      <li><a aria-label="Open resume in a new tab"href="https://drive.google.com/open?id=1PcbSGeX1PhGhJCTNHZfCuGKSBkVPSRRE" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="small material-icons grey-text left">open_in_new</i><span>Resume</span></a></li>
+    </ul>
+    <!-- <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
     <!--Main Content-->
     <main>
-      <section id="intro-image" class="section"></section>
+      <section id="intro-image" class="section scrollspy full-height"></section>
       <section id="about" class="section">
-        <h3>About</h3>
+        <h3 class="page-title white-text teal lighten-3 z-depth-1">About</h3>
+        <div class="container">
+          <blockquote>
+            <h2>
+              I’m a mechanical & manufacturing engineer turned full-stack software engineer that enjoys crafting elegant & creative solutions to challenging problems.
+            </h2>
+          </blockquote>
+          <p>
+            With 10 years of experience in semiconductor and consumer electronics, I bring a unique perspective to the product development cycle.
+            I know how to work cross-functionally across large organizations to build products at incredible scale against demanding deadlines. 
+            I love to build new things and I get excited about leveraging the power of software to automate, streamline, and improve people's lives.
+          </p>
+        </div>
+      </section>
+      <div class="divider"></div>
+      <section id="experience" class="section scrollspy">
+        <h3 class="page-title white-text teal lighten-3 z-depth-1">Experience</h3>
         <div class="container"></div>
       </section>
-      <section id="experience" class="section">
-          <h3>Experience</h3>
-          <div class="container"></div>
+      <div class="divider"></div>
+      <section id="skills" class="section scrollspy">
+        <h3 class="page-title white-text teal lighten-3 z-depth-1">Skills</h3>
+        <div class="container"></div>
       </section>
-      <section id="skills" class="section">
-          <h3>Skills</h3>
-          <div class="container"></div>
+      <div class="divider"></div>
+      <section id="projects" class="section scrollspy">
+        <h3 class="page-title white-text teal lighten-3 z-depth-1">Projects</h3>
+        <div class="container"></div>
       </section>
-      <section id="projects" class="section">
-          <h3>Projects</h3>
-          <div class="container"></div>
+      <div class="divider"></div>
+      <section id="education" class="section scrollspy">
+        <h3 class="page-title white-text teal lighten-3 z-depth-1">Education</h3>
+        <div class="container"></div>
       </section>
-      <section id="education" class="section">
-          <h3>Education</h3>
-          <div class="container"></div>
-      </section>
-      <section id="contact" class="section">
-          <h3>Contact</h3>
-          <div class="container"></div>
-      </section>
-      <section id="resume" class="section">
-          <h3>Resume</h3>
-          <div class="container"></div>
+      <div class="divider"></div>
+      <section id="contact" class="section scrollspy">
+        <h3 class="page-title white-text teal lighten-3 z-depth-1">Contact</h3>
+        <div class="container"></div>
       </section>
     </main>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </body>
 </html>

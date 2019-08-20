@@ -1,0 +1,54 @@
+main {
+  padding-left: 200px;
+  top: 0px;
+}
+
+@media only screen and (max-width : 992px) {
+  main {
+    padding-left: 0;
+  }
+}
+li.logo {
+  height:200px;
+}
+.brand-logo h1 {
+	font-size: 40px;
+  /* line-height: inherit; */
+  margin-top: 10px;
+  font-weight: inherit;
+}
+.brand-logo span {
+  font-size: 15px;
+}
+
+.sidenav {
+  width: 210px;
+  z-index: 2;
+}
+
+.sidenav li {
+  padding-top: 20px;
+  width: auto;
+}
+
+.section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#intro-image {
+  background: url("/media/IMG_3860.png") no-repeat top center/cover;
+  position: relative;
+}
+.full-height {
+  height: 100vh;
+  width: 100%;
+}
+
+h3 {
+	font-weight: 200;
+	margin-bottom: 20px;
+	margin-top: 0;
+	padding: 30px 40px;
+	text-transform: uppercase;
+}
