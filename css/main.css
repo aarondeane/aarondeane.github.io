@@ -8,22 +8,20 @@ main {
     padding-left: 0;
   }
 }
-li.logo {
-  height:200px;
+
+.name h1 {
+  font-size: 40px;
+  text-align: center;
+  line-height: inherit;
+  margin-top: 5px;
+  font-weight: bold;
 }
-.brand-logo h1 {
-	font-size: 40px;
-  /* line-height: inherit; */
-  margin-top: 10px;
-  font-weight: inherit;
-}
-.brand-logo span {
-  font-size: 15px;
+.name span {
+  font-size: 18px;
 }
 
 .sidenav {
-  width: 210px;
-  z-index: 2;
+  width: 205px;
 }
 
 .sidenav li {

@@ -15,11 +15,10 @@
   </head>
   <body>
     <!--Sidenav Menu-->
-
-    <ul id="slide-out" class="sidenav sidenav-fixed grey lighten-5 z-depth-2">
-      <li class="logo z-depth-2"><a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro-image" class="brand-logo teal-text">
+    <ul id="slide-out" class="sidenav sidenav-fixed grey lighten-5 z-depth-2 hide-on-small">
+      <li class="name z-depth-2">
           <h1>Aaron Deane<br>
-          <span class="brown-text text-lighten-2">Full Stack Developer</span></h1></a>
+          <span class="brown-text text-lighten-2">Full Stack Developer</span></h1>
       </li>
       <li><a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i class="small material-icons teal-text left center">account_box</i><span>About</span></a></li>
       <li><a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark cyan-text"><i class="small material-icons cyan-text left">trending_up</i><span>Experience</span></a></li>
@@ -29,7 +28,7 @@
       <li><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="small material-icons brown-text left">mail_outline</i><span>Contact</span></a></li>
       <li><a aria-label="Open resume in a new tab"href="https://drive.google.com/open?id=1PcbSGeX1PhGhJCTNHZfCuGKSBkVPSRRE" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="small material-icons grey-text left">open_in_new</i><span>Resume</span></a></li>
     </ul>
-    <!-- <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
+    <a href="#" data-target="slide-out" class="hide-on-large-only sidenav-trigger" ><i class="medium material-icons teal-text">menu</i></a>
     <!--Main Content-->
     <main>
       <section id="intro-image" class="section scrollspy full-height"></section>
@@ -77,6 +76,13 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>
+      const elem = document.querySelector('.sidenav');
+      const instance = new M.Sidenav(elem);
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+      });
+    </script>
   </body>
 </html>
