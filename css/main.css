@@ -43,6 +43,15 @@ main {
   max-width: 100%;
   margin: 0 auto;
 }
+.half-height {
+  height: 50vh;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+blockquote h2 {
+  font-size: 3rem;
+}
 
 h3 {
 	font-weight: 200;
@@ -50,4 +59,16 @@ h3 {
 	margin-top: 0;
 	padding: 30px 40px;
 	text-transform: uppercase;
+}
+
+#contact .container {
+  height: 100%;
+}
+
+#contact a {
+  font-size: 18px;
+}
+
+#education .card-image {
+ 
 }
