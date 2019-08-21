@@ -40,7 +40,8 @@ main {
 }
 .full-height {
   height: 100vh;
-  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 h3 {

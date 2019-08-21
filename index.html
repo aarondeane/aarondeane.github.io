@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
     <!-- Compiled and minified CSS -->
@@ -18,17 +19,17 @@
     <ul id="slide-out" class="sidenav sidenav-fixed grey lighten-5 z-depth-2 hide-on-small">
       <li class="name z-depth-2">
           <h1>Aaron Deane<br>
-          <span class="brown-text text-lighten-2">Full Stack Developer</span></h1>
+          <span class="grey-text">Full Stack Developer</span></h1>
       </li>
-      <li><a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i class="small material-icons teal-text left center">account_box</i><span>About</span></a></li>
-      <li><a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark cyan-text"><i class="small material-icons cyan-text left">trending_up</i><span>Experience</span></a></li>
-      <li><a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark indigo-text"><i class="small material-icons indigo-text left">assessment</i><span>Skills</span></a></li>
-      <li><a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark purple-text"><i class="small material-icons purple-text left">desktop_mac</i><span>Projects</span></a></li>
-      <li><a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark orange-text"><i class="small material-icons orange-text left">grade</i><span>Education</span></a></li>
-      <li><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="small material-icons brown-text left">mail_outline</i><span>Contact</span></a></li>
-      <li><a aria-label="Open resume in a new tab"href="https://drive.google.com/open?id=1PcbSGeX1PhGhJCTNHZfCuGKSBkVPSRRE" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="small material-icons grey-text left">open_in_new</i><span>Resume</span></a></li>
+      <li><a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text text-lighten-2"><i class="small material-icons teal-text text-lighten-2 left center">account_box</i><span>About</span></a></li>
+      <li><a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark teal-text text-lighten-2"><i class="small material-icons teal-text text-lighten-2 left">trending_up</i><span>Experience</span></a></li>
+      <li><a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text text-lighten-2"><i class="small material-icons teal-text text-lighten-2 left">assessment</i><span>Skills</span></a></li>
+      <li><a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text text-lighten-2"><i class="small material-icons teal-text text-lighten-2 left">desktop_mac</i><span>Projects</span></a></li>
+      <li><a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text text-lighten-2"><i class="small material-icons teal-text text-lighten-2 left">school</i><span>Education</span></a></li>
+      <li><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text text-lighten-2"><i class="small material-icons teal-text text-lighten-2 left">mail_outline</i><span>Contact</span></a></li>
+      <li><a aria-label="Open resume in a new tab" href="https://drive.google.com/open?id=1PcbSGeX1PhGhJCTNHZfCuGKSBkVPSRRE" target="_blank" class="waves-effect waves-dark teal-text text-lighten-2"><i class="small material-icons teal-text text-lighten-3 left">open_in_new</i><span>Resume</span></a></li>
     </ul>
-    <a href="#" data-target="slide-out" class="hide-on-large-only sidenav-trigger" ><i class="medium material-icons teal-text">menu</i></a>
+    <a href="#" data-target="slide-out" class="hide-on-large-only sidenav-trigger" ><i class="medium material-icons teal-text text-lighten-2">menu</i></a>
     <!--Main Content-->
     <main>
       <section id="intro-image" class="section scrollspy full-height"></section>
@@ -68,9 +69,33 @@
         <div class="container"></div>
       </section>
       <div class="divider"></div>
-      <section id="contact" class="section scrollspy">
+      <section id="contact" class="section scrollspy full-height">
         <h3 class="page-title white-text teal lighten-3 z-depth-1">Contact</h3>
-        <div class="container"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col s4">
+              <a aria-label="Email Aaron" href="mailto:aaronmdeane@gmail.com" target="_blank" class="btn-floating btn-large waves-effect waves-light">
+                <i class="small material-icons white-text">mail_outline</i>
+              </a>
+              <br>
+              <a href="mailto:aaronmdeane@gmail.com" class="hoverline teal-text">aaronmdeane@gmail.com</a>
+            </div>
+            <div class="col s4">
+              <a aria-label="Email Aaron" href="https://www.github.com/aarondeane" target="_blank" class="btn-floating btn-large waves-effect waves-light">
+                <i class="fab fa-github"></i>
+              </a>
+              <br>
+              <a href="https://www.github.com/aarondeane" class="hoverline teal-text">github.com/aarondeane</a>
+            </div>
+            <div class="col s4">
+              <a aria-label="Go to Aaron's LinkedIn" href="https://www.linkedin.com/in/aarondeane/" target="_blank" class="btn-floating btn-large waves-effect waves-light">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <br>
+              <a href="https://www.linkedin.com/in/aarondeane/" class="hoverline teal-text">linkedin.com/aarondeane</a>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <!-- Compiled and minified JavaScript -->

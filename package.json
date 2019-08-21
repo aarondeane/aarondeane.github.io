@@ -1,0 +1,23 @@
+{
+  "name": "aarondeane.github.io",
+  "version": "1.0.0",
+  "description": "Aaron Deane's personal portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aarondeane/aarondeane.github.io.git"
+  },
+  "author": "Aaron Deane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aarondeane/aarondeane.github.io/issues"
+  },
+  "homepage": "https://github.com/aarondeane/aarondeane.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.1"
+  }
+}
