@@ -16,6 +16,7 @@ main {
   margin-top: 5px;
   font-weight: bold;
 }
+
 .name span {
   font-size: 18px;
 }
@@ -38,11 +39,13 @@ main {
   background: url("/media/IMG_3860.png") no-repeat top center/cover;
   position: relative;
 }
+
 .full-height {
   height: 100vh;
   max-width: 100%;
   margin: 0 auto;
 }
+
 .half-height {
   height: 50vh;
   max-width: 100%;
@@ -67,8 +70,4 @@ h3 {
 
 #contact a {
   font-size: 18px;
-}
-
-#education .card-image {
- 
 }
