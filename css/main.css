@@ -63,6 +63,10 @@ h3 {
 	padding: 30px 40px;
 	text-transform: uppercase;
 }
+#experience li {
+  list-style-type: disc;
+  margin-left: 15px;
+}
 
 #contact .container {
   height: 100%;
