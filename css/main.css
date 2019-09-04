@@ -34,6 +34,12 @@ main {
   padding-top: 0;
   padding-bottom: 0;
 }
+@media only screen and (max-width : 320px) {
+  #intro-image {
+    background: url("/media/IMG_3860_small.png") no-repeat top center/cover;
+    position: relative;
+  }
+}
 
 #intro-image {
   background: url("/media/IMG_3860.png") no-repeat top center/cover;
