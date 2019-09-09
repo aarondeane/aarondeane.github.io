@@ -2,6 +2,11 @@ main {
   padding-left: 200px;
   top: 0px;
 }
+@media only screen and (max-width : 501px) {
+  #intro-image {
+    background-image: url("/media/IMG_3860_small.png") left center;
+  }
+}
 
 @media only screen and (max-width : 992px) {
   main {
@@ -34,15 +39,9 @@ main {
   padding-top: 0;
   padding-bottom: 0;
 }
-@media only screen and (max-width : 414px) {
-  #intro-image {
-    background: url("/media/IMG_3860_small.png") no-repeat top center/cover;
-    position: relative;
-  }
-}
 
 #intro-image {
-  background: url("/media/IMG_3860.png") no-repeat top center/cover;
+  background: url("/media/IMG_3860.png") top center/cover no-repeat;
   position: relative;
 }
 
